@@ -1,4 +1,5 @@
-nome = input('Qual é seu nome? ')
-idade = input('Qual é sua idade? ')
-peso = input('Qual é seu peso? ')
-print(nome, idade, peso)
+num1 = int(input('Informe o primeiro número: '))
+num2 = int(input('Informe o segundo número: '))
+soma = num1 + num2
+
+print('A soma dos 2 números informados é', soma, '.')
